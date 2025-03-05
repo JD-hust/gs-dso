@@ -1,7 +1,7 @@
 # Direct Sparse Odometry with Continuous 3D Gaussian Maps for Indoor Environments
 
 ### 1. Related Papers
-**Direct Sparse Odometry with Continuous 3D Gaussian Maps for Indoor Environments**, *Deng J, Lang F, Yuan Z, Yang X*
+**Direct Sparse Odometry with Continuous 3D Gaussian Maps for Indoor Environments**, *Deng J, Lang F, Yuan Z, Yang X*.
 
 ### 2. Installation
 
@@ -71,12 +71,12 @@ and then run it with the following instruction for localization:
 
 		./gsdso_dataset files=PATH/to/datasets calib=../calib/DATASETS/calib.txt result=../output/ mode=1 preset=0
 
-We provide a pre-trained prior map example in output folder and dataset sequence in example folder.There is the instruction to run on the sequence:
+We provide a pre-trained prior map and an example sequence in the [link](https://drive.google.com/drive/folders/1goUk6_3Pf9eM31T2yYfQpnUxonxfSvzU?usp=drive_link).There is the instruction to run on the sequence:
 
 		./gsdso_dataset files=../example/S2 calib=../calib/ICL/calib.txt result=../example/output/ mode=1 preset=0
 
 
-For more details on configuration parameters, see [Direct Sparse Odometry](https://github.com/JakobEngel/dso) and [OpenSplat](https://github.com/pierotofy/OpenSplat)
+For more details on configuration parameters, see [Direct Sparse Odometry](https://github.com/JakobEngel/dso) and [OpenSplat](https://github.com/pierotofy/OpenSplat).
 
 ### 4. Acknowledgement
 This work is implemented based on [Direct Sparse Odometry](https://github.com/JakobEngel/dso), [RGBD-DSO](https://github.com/HustCK/RGBD-DSO) and [OpenSplat](https://github.com/pierotofy/OpenSplat). Thanks to [J. Engel](https://scholar.google.com/citations?user=ndOMZXMAAAAJ&hl=zh-CN) et al., who open source such excellent code for community.
