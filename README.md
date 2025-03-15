@@ -3,6 +3,8 @@
 ### 1. Related Papers
 **Direct Sparse Odometry with Continuous 3D Gaussian Maps for Indoor Environments**, *Deng J, Lang F, Yuan Z, Yang X*.
 
+ [paper link](https://arxiv.org/abs/2503.03373)
+
 ### 2. Installation
 
 		git clone git@github.com:JD-hust/gs-dso.git
